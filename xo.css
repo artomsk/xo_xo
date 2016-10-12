@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 90px;
+}
+
+td {
+    border: 1px solid slategrey;
+    width: 30px;
+}
+
+button:hover {
+    background: lightslategrey;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 0px;
+}
+
+input:hover {
+    background: black;
+}
