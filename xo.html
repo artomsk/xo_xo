@@ -10,7 +10,7 @@
 <body>
     <h1>Крестики-Нолики</h1>
     <form>
-        <button type="reset">Начать игру</button>
+        <button type="reset" onclick="document.location.reload()">Начать игру</button>
     </form>
     <br>
     <!-- Такая ещё была кнопка
@@ -30,19 +30,19 @@
 
     <table>
         <tr>
-            <td><input type="submit" class="bu" value="   " id="b1" /></td>
-            <td><input type="submit" class="bu" value="   " id="b2" /></td>
-            <td><input type="submit" class="bu" value="   " id="b3" /></td>
+            <td><input type="submit" class="bu" value="   " id="b1" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b2" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b3" onclick="this.value=' X '" /></td>
         </tr>
         <tr>
-            <td><input type="submit" class="bu" value="   " id="b4" /></td>
-            <td><input type="submit" class="bu" value="   " id="b5" /></td>
-            <td><input type="submit" class="bu" value="   " id="b6" /></td>
+            <td><input type="submit" class="bu" value="   " id="b4" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b5" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b6" onclick="this.value=' X '" /></td>
         </tr>
         <tr>
-            <td><input type="submit" class="bu" value="   " id="b7" /></td>
-            <td><input type="submit" class="bu" value="   " id="b8" /></td>
-            <td><input type="submit" class="bu" value="   " id="b9" /></td>
+            <td><input type="submit" class="bu" value="   " id="b7" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b8" onclick="this.value=' X '" /></td>
+            <td><input type="submit" class="bu" value="   " id="b9" onclick="this.value=' X '" /></td>
         </tr>
     </table>
 </body>
