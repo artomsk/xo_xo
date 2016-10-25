@@ -5,6 +5,43 @@
     <meta charset="UTF-8">
     <title>Крестики-нолики</title>
     <link href="xo.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        function a() {
+            document.getElementById("b1").value = " X ";
+        }
+
+        function b() {
+            document.getElementById("b2").value = " X ";
+        }
+
+        function c() {
+            document.getElementById("b3").value = " X ";
+        }
+
+        function d() {
+            document.getElementById("b4").value = " X ";
+        }
+
+        function e() {
+            document.getElementById("b5").value = " X ";
+        }
+
+        function f() {
+            document.getElementById("b6").value = " X ";
+        }
+
+        function g() {
+            document.getElementById("b7").value = " X ";
+        }
+
+        function h() {
+            document.getElementById("b8").value = " X ";
+        }
+
+        function i() {
+            document.getElementById("b9").value = " X ";
+        }
+    </script>
 </head>
 
 <body>
@@ -13,6 +50,26 @@
         <button type="reset" onclick="document.location.reload()">Начать игру</button>
     </form>
     <br>
+
+
+    <table>
+        <tr>
+            <td><input type="submit" class="bu" value="   " id="b1" onclick="a()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b2" onclick="b()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b3" onclick="c()" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" class="bu" value="   " id="b4" onclick="d()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b5" onclick="e()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b6" onclick="f()" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" class="bu" value="   " id="b7" onclick="g()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b8" onclick="h()" /></td>
+            <td><input type="submit" class="bu" value="   " id="b9" onclick="i()" /></td>
+        </tr>
+    </table>
+
     <!-- Такая ещё была кнопка
     <div>
         <input type="submit" class="bu" value="   " id="b1" />
@@ -27,24 +84,6 @@
     </div>
     <br>
     -->
-
-    <table>
-        <tr>
-            <td><input type="submit" class="bu" value="   " id="b1" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b2" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b3" onclick="this.value=' X '" /></td>
-        </tr>
-        <tr>
-            <td><input type="submit" class="bu" value="   " id="b4" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b5" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b6" onclick="this.value=' X '" /></td>
-        </tr>
-        <tr>
-            <td><input type="submit" class="bu" value="   " id="b7" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b8" onclick="this.value=' X '" /></td>
-            <td><input type="submit" class="bu" value="   " id="b9" onclick="this.value=' X '" /></td>
-        </tr>
-    </table>
 </body>
 
 </html>
