@@ -9,6 +9,12 @@ td {
     width: 30px;
 }
 
+.gameboard .bu {
+    background: white;
+}
+
+.gameboard .bu.clicked {}
+
 button:hover {
     background: lightslategrey;
 }
